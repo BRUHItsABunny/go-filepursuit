@@ -14,3 +14,22 @@ If you want some pointers from someone who is into reverse engineering as to how
 I don't plan on maintaining this project. 
 
 Use at your own risk.
+
+### Usage
+You can install this library by using:
+```
+go get github.com/BRUHItsABunny/go-filepursuit
+```
+This library depends on my HTTP client abstraction (also not production ready yet) :
+```
+go get github.com/BRUHItsABunny/gOkHttp
+```
+
+You can find examples in the `_examples` folder.
+
+This library can:
+* Search for files
+* Discover servers and files
+* Submit files
+* Get app news
+* Suggest other terms to search for based on incomplete keyword
